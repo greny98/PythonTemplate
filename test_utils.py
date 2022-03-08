@@ -1,5 +1,9 @@
 from typing import List, Union
 
+TEST = {
+    "inp": [0],
+    "out": 1
+}
 
 def check_list(l1: List[Union[int, float, str]], l2: List[Union[int, float, str]]) -> bool:
     """
